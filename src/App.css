@@ -1,0 +1,39 @@
+.App{
+  margin-left: 1rem;
+}
+
+.chat-box{
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  background-color: rgb(146, 55, 97);
+}
+
+.chat-container.me{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right:0.5rem;
+}
+
+.chat-container{
+  display: flex;
+}
+
+.me .chat-box{
+  background-color: cadetblue;
+}
+
+.btm{
+  display: flex;
+  flex-direction:row;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.btm input{
+  flex-grow: 1;
+  padding: 1rem;
+}
+.btm button{
+  padding: 1rem;
+}
